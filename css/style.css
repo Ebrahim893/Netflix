@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	font-family: 'Helvetica',Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 25px 50px 15px 30px;
+	position: absolute;
+	width: 100%;
+	z-index: 5;
+}
+
+header .logo img{
+
+	height:50px;
+
+}
+
+header div+div{
+	text-align: right;
+	color: white;
+}
+
+header a.sign-btn{
+	display: inline-block;
+	background-color: #e50914;
+	color: white;
+	font-size: 1rem;
+	text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 17px;
+}
+header select{
+	background: transparent;
+	color: white;
+	display: inline-block;
+    height: 33px;
+    width: 89px;
+    border-radius: 5px;
+    padding-left: 15px; 
+    margin-right: 30px;
+}
+div.splash{
+	position: relative;
+}
+
+div.splash div.bg img{
+	display: block;
+	max-width: 100%;
+	filter: opacity(70%);
+
+}
+
+div.splash div.main{
+     text-align: center;
+     margin-top: 16em; 
+     padding: 0;
+     color: white; 
+     position: absolute;
+     inset:0;
+ }
+
+  div.splash div.main h1{
+  	font-style: bold;
+  	font-size: 50px;
+  	padding-bottom: 10px;
+  }
+  div.splash div.main h2{
+       padding-bottom: 25px;
+    
+  }
+    div.splash div.main h4{
+    	font-size: 19px;
+    	padding-bottom: 15px;
+}
+
+div.splash div.main form input{
+    height: 60px;
+    width: 4.8in;
+
+
+}
+div.splash div.main form button{
+	height: 61px;
+	display: inline-block;
+	width: 2.1in;
+	padding-left: -3px;
+	background-color: #e50914;
+	color: white;
+	font-size: 24px;
+}
